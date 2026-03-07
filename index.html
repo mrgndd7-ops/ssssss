@@ -1,112 +1,218 @@
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sushiland - Profesyonel Uzak Doğu & Sushi Restoranı">
-    <title>Sushiland | Uzak Doğu Mutfağı</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
-
-    <header class="hero" id="home">
-        <div class="hero-overlay"></div>
-        <div class="hero-content">
-            <h1>Sushiland</h1>
-            <p>Uzak Doğu'nun Geleneksel Lezzetleri, Minimalist Bir Dokunuşla İstanbul'da.</p>
-            <a href="https://wa.me/905418792925" class="btn-whatsapp" target="_blank">
-                <i class="fab fa-whatsapp"></i> Sipariş Ver / Rezervasyon
-            </a>
-        </div>
-    </header>
-
-    <section class="menu" id="menu">
+<section class="menu" id="menu">
         <div class="container">
-            <h2>Menümüz</h2>
-            <div class="divider"></div>
-
-            <div class="menu-category">
-                <h3>Başlangıçlar (Beginnings)</h3>
-                <div class="menu-grid">
-                    <div class="menu-item"><div class="menu-item-info"><h4>Tempura Karides Kokteyl</h4><p>6 Adet tempura karides, kokteyl sos</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Acılı Edamame</h4><p>Acı soslu edamame, himalaya tuzu</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Edamame</h4><p>Edamame, himalaya tuzu</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Crispy Chicken</h4><p>7 adet panelenmiş çıtır tavuk, tatlı ekşi sos ile</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Gyoza Dana Etli</h4><p>4 Adet gyoza, soya sos, havuç, taze soğan, lahana</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Dynamite Shrimp</h4><p>6 pcs. özel soslu çıtır karides</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Vegie Spring Roll</h4><p>Havuç, beyaz lahana, kabak, yeşil soğan, dark soya sos</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Buharda Dana Etli Çin Mantısı</h4><p>Kıyma, havuç, kabak, taze soğan, yumurta, özel land sos</p></div></div>
-                </div>
+            <h2 class="section-title">Menümüz</h2>
+            
+            <h3 class="category-title">Başlangıçlar (Beginnings)</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div class="item-info"><h4>Tempura Karides Kokteyl</h4><p>6 Adet tempura karides, kokteyl sos</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Acılı Edamame</h4><p>Acı soslu edamame, himalaya tuzu</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Edamame</h4><p>Edamame, himalaya tuzu</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Crıspy Chıcken</h4><p>7 adet panelenmiş çıtır tavuk yanında tatlı ekşi sos ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Gyoza Dana Etli</h4><p>4 Adet gyoza, soya sos, havuç, taze soğan, lahana</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Dynamite Shrimp</h4><p>6 pcs.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Vegie Spring Roll</h4><p>Havuç, beyaz lahana, kabak, yeşil soğan, dark soya sosu</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Buharda Dana Etli Çin Mantısı</h4><p>Kıyma, havuç, kabak, taze soğan, yumurta, özel land sos</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Crab Stick Tempura</h4><p>5 pcs</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Kızarmış Çin Mantısı</h4><p>Kıyma, havuç, kabak, taze soğan, yumurta</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Corn Tempura</h4><p></p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Karides Cipsi</h4><p></p></div></div>
             </div>
 
-            <div class="menu-category">
-                <h3>Çorba (Soup)</h3>
-                <div class="menu-grid">
-                    <div class="menu-item"><div class="menu-item-info"><h4>Tom Yam Çorba</h4><p>Karides, mantar, çeri domates, gong ezmesi, togarashi</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Tavuklu Mısırlı Çorba</h4><p>Tavuk, mısır, özel gong ezmesi</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Acılı Ekşili Çorba</h4><p>Marine edilmiş tavuk, kırmızı/yeşil biber, lahana, özel çin acı yağı</p></div></div>
-                </div>
+            <h3 class="category-title">Çorba (Soup)</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div class="item-info"><h4>Tom Yam Çorba</h4><p>Karides, mantar, çeri domates, gong ezmesi, togarashi</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Tavuklu Mısırlı Çorba</h4><p>Tavuk, mısır, özel gong ezmesi</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Acılı Ekşili Çorba260</h4><p>Marine edilmiş tavuk, kırmızı biber, yeşil biber, lahana, özel çin acı yağı</p></div></div>
             </div>
 
-            <div class="menu-category">
-                <h3>Crunchy (Pişmiş) Roll</h3>
-                <div class="menu-grid">
-                    <div class="menu-item"><div class="menu-item-info"><h4>California Tempura Roll</h4><p>Tempura yengeç, avokado, krem peynir, teriyaki, dynamit sos</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Somon Tempura Roll</h4><p>Somon tempura, krem peynir, salatalık, dynamic sos</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Fried Golden Roll</h4><p>Tempura karides, avokado, krem peynir, dışı panko kaplı</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Vejeteryan Roll</h4><p>Salatalık, domates, avokado, havuç, kuşkonmaz, dışı susam</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Tempura Levrek Roll</h4><p>Tempura levrek, avokado, salatalık, krem peynir, dışı çıtır panko</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Süper Crancy Roll</h4><p>Yengeç, karides, krem peynir, mayonez, taze baharatlar</p></div></div>
-                </div>
+            <h3 class="category-title">40 Pcs Set (The Emperor)</h3>
+            <div class="menu-grid">
+                <div class="menu-item highlight"><div class="item-info"><h4>Land Of Big Set 40 Parça + 3 Cola Hediyeli</h4><p>California roll (8 pcs), somon tempura roll (8 pcs), miami roll (8 pcs), somon maki (8 pcs), ebi tempura roll (8 pcs), wasabi, zencefil turşusu, soya sosu ile</p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Landon Big Set 40 Parça + 3 Cola Hediyeli</h4><p>California tempura roll(8 pcs)-philadelphia roll(8 pcs)-fried golden roll(8 pcs)-cripy chicken roll(8 pcs)- somon tempur roll(8 pcs</p></div></div>
             </div>
 
-            <div class="menu-category">
-                <h3>Ramen (Oishii) & Udon (Umi)</h3>
-                <div class="menu-grid">
-                    <div class="menu-item"><div class="menu-item-info"><h4>Üç Lezzetli Ramen</h4><p>Tavuk, dana eti, karides, erişte, ajitama, taze sebzeler</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Dana Etli Ramen</h4><p>Dana eti, mantar, ajitama, pürmüzlenmiş yedikule, kara lahana</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Üç Lezzetli Udon</h4><p>Tavuk, karides, dana eti, udon eriştesi, sebzeler, dynamic sos</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Dana Etli Udon</h4><p>Dana eti, udon eriştesi, havuç, soya filizi, kapya biber</p></div></div>
-                </div>
+            <h3 class="category-title">Uzakdoğu Üçlüsü (The Far East Trio)</h3>
+            <div class="menu-grid">
+                <div class="menu-item highlight"><div class="item-info"><h4>LAND Uzak Doğu Üçlüsü (The Far East Trio)</h4><p>Acılı ekşili çorba, tavuklu noodle, ebi tempura roll.</p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>LAND Uzak Doğu Üçlüsü</h4><p>Tavuklu mısırlı çorba - tavuklu noodle - california roll</p></div></div>
             </div>
 
-            <div class="menu-category">
-                <h3>Noodle (Motto)</h3>
-                <div class="menu-grid">
-                    <div class="menu-item"><div class="menu-item-info"><h4>Singapur Noodle</h4><p>Dana eti, karides, tavuk, sebzeler ve dynamic sos ile</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Etli Noodle</h4><p>Dana eti, havuç, kapya biber, soya filizi, yeşil soğan</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Tavuklu Noodle</h4><p>Tavuk, sebzeler, çin eriştesi, lahana ve özel sos</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Sebzeli Noodle</h4><p>Yeşil soğan, havuç, kapya biber, soya filizi, brokoli</p></div></div>
-                </div>
+            <h3 class="category-title">32 Pcs Set (Squad Box)</h3>
+            <div class="menu-grid">
+                <div class="menu-item highlight"><div class="item-info"><h4>Land Of Sushi 32' Parça + 2 Cola hediyeli</h4><p>California roll (8 pcs), philadelphia roll (8 pcs), somon maki (8 pcs), avakado maki (8 pcs), vasabi, zencefil turşusu, soya sosu ile</p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Populer Set 32 Parça+2 Cola hediyeli</h4><p>California roll (8 pcs), fried golden roll (8 pcs), cheddar roll (8 pcs), avokado maki (8 pcs), zencefil turşusu, soya sos, wasabi</p></div></div>
             </div>
 
-            <div class="menu-category">
-                <h3>Sushi Setleri (Special Sets)</h3>
-                <div class="menu-grid">
-                    <div class="menu-item"><div class="menu-item-info"><h4>The Emperor (40 Pcs)</h4><p>Land Of Big Set: California, Somon Tempura, Miami Roll, Somon Maki, Ebi Tempura</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Squad Box (32 Pcs)</h4><p>Popular Set: California, Fried Golden, Cheddar Roll, Avokado Maki</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>Soulmates (24 Pcs)</h4><p>Land Classic: California Roll, Philadelphia Roll, Cucumber Roll</p></div></div>
-                    <div class="menu-item"><div class="menu-item-info"><h4>The Far East Trio</h4><p>Uzak Doğu Üçlüsü: Çorba, Tavuklu Noodle, Roll seçeneği</p></div></div>
-                </div>
+            <h3 class="category-title">26 Pcs Set (Soulmates)</h3>
+            <div class="menu-grid">
+                <div class="menu-item highlight"><div class="item-info"><h4>Land Of Sushi Set 24 Parça +2 Cola hediyeli</h4><p>Philadelphi roll (8pcs),california roll (8pcs) avakado maki (8pcs)</p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Populer Set 24 Parça+2 Cola hediyeli</h4><p>California tempura roll (8 pcs), fried golden roll (8 pcs), philadelphia roll (8 pcs), zencefil turşusu, soya sosu, wasabi</p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Land Vejetaryen 24' Parça +2 Cola Hediyeli</h4><p>Vejeteryan rol(8 pcs)+cucumber roll(8 pcs)+avakado maki(8 pcs)</p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Land Deluxe 24' Parca + 2 Cola Hediyeli</h4><p>Chedar roll(8 pcs)+philly deluxe(8 pcs)+avakado maki(8 pcs)</p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Land Classic 24'Parça + 2 Cola Hediyeli</h4><p>California roll(8 pcs)+philadelphia roll(8 pcs)+cucumber roll(8 pcs)</p></div></div>
+            </div>
+
+            <h3 class="category-title">16 Pcs Set (Better Together)</h3>
+            <div class="menu-grid">
+                <div class="menu-item highlight"><div class="item-info"><h4>Land Vejetaryen 2'li set 16 (Pcs)</h4><p>Avakado Roll(8 pcs)-Vejeteyan Rol(8 pcs)</p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Classic 2'li Set 16 (Pcs)</h4><p>California roll (8 pcs),philadelphia roll ( 8 pcs)</p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Land Somon 2'li Set 16 (Pcs)</h4><p>Phialdelpia Roll(8 pcs)-Somon Tempura Roll(8 pcs)</p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Land Crunchy 2'li Set (16 Pcs)</h4><p>California tempura roll (8 pcs)-Tempura karides roll (8 pcs)</p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Land Deluxe 2'li 16 (Pcs)</h4><p>Chedar Rol (8 Pcs)-philly Deluxe (8Pcs)</p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Land Maki Vejetaryen 2'li 16 (Pcs)</h4><p>Cucumber Maki (8 Pcs)-avakado Maki (8 Pcs)</p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Land Classic Maki 2'li 16 (Pcs)</h4><p>Somon Maki (8 Pcs)-ebi Maki (8 Pcs)</p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Land Et 2'li 2 (pcs)</h4><p>Dana Etli Noodle-tavuk Etli Noodle</p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Land Mix 2'li 16 (Pcs)</h4><p>Crispy Chicken Roll(8 pcs)-Cheader Roll(8 pcs)</p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Tavuklu Noodle + California Roll (8 Pcs)</h4><p></p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Dana Etlii Noodle + California Tempura Rol</h4><p>Dana etli noodle + california tempura roll</p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Sebzeli Noodle + Avakado Roll (8 Pcs)</h4><p></p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Tavuklu Noodle + Crispy Chickhen Roll (8 Pcs)</h4><p></p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Singapur Noodle + Rainbow Bridge (8 Pcs)</h4><p></p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Set 999 (16pcs)</h4><p>California roll (4 pcs), canadian roll (4 pcs), ebi tempura (4 pcs), kani tempura (4 pcs), wasabi, zencefil turşusu, soya sos</p></div></div>
+            </div>
+
+            <h3 class="category-title">Roller (The Roll Manifesto)</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div class="item-info"><h4>California Roll (8Pcs.)</h4><p>Surimi yengeç, avokado salatalık, mayonez. Dışı tobiko, soya sosu, wasabi, zencefil turşusu ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>California Tempura Roll (8,pcs)</h4><p>Tempura yengeç, salatalık, avokado, krem peynir, teriyaki sos, dynamit sos, wasabi, soya sosu, zencefil turşusu.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Tuna Roll (8 pcs)</h4><p>Tuna balığı, avokado, salatalık, krem peynir, üzerinde tuna balık parçaları wasabi, soya sosu, zencefil turşusu.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Crispy Chicken Roll (8 pcs)</h4><p>Tavuk, salatalık, krem peynir, dynamic sos, wasabi, soya sosu, zencefil turşusu ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Sandwich Sushi (4 pcs)</h4><p>Somon, krem peynir, susam, wasabi, soya sosu, zencefil turşusu ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Philadelphia Roll (8 pcs)</h4><p>Krem peynir, avokado, salatalık, somon, wasabi, soya sosu, zencefil turşusu.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Avokado Roll (8pcs)</h4><p>Avokado, krem peynir, salatalık, dışı susam, wasabi ve zencefil turşusu</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Yıldız Roll (8 pcs)</h4><p>Somon, krem peynir, salatalık, dynamic sos, wasabi, soya sosu, zencefil turşusu.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Kanada Roll (8pcs)</h4><p>Somon, yengeç, avokado, salatalık, susam, wasabi, soya sosu, zencefil turşusu ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Rainbow Bridge (8pcs)</h4><p>California roll üzerine 4 farklı balık (somon, tuna, levrek, ebi karides) sos, wasabi, soya sosu, zencefil turşusu.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Miami Roll (8 pcs)</h4><p>Ton balık, krem peynir, avokado, salatalık, üzerinde işlenmiş ton balığı, dynamic sos, wasabi, soya sosu, zencefil turşusu.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>California Roll (8pcs)</h4><p>Yengeç, avokado, salatalık, krem peynir, tobiko, wasabi, soya sosu, zencefil turşusu ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Philly Deluxe (8pcs)</h4><p>Somon, krem peynir, salatalık, dışı susam wasabi, soya sosu, zencefil turşusu ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Chedar Roll (8 pcs)</h4><p>Surimi yengeç, cheddar peyniri,krem peynir, salatalık, avokado, dinamik sos, wasabi sosu, zencefil turşusu ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Ocean's Heart Roll (8pcs)</h4><p>Tuna, Krem peynir, salatalık, avakado, dynamic sos, wasabi, soya sosu, zencefil turşusu.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Somon Tempura Roll (8pcs)</h4><p>Somon tempura, krem peynir, salatalık, dynamic sos, wasabi, soya sosu, zencefil turşusu.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>California Somon Roll (8pcs)</h4><p>Somon, avokado, salatalık, krem peynir, haviar, wasabi, soya sosu, zencefil turşusu.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Fried Golden Roll (8 pcs)</h4><p>Tempura Karides, avokado, salatalık, krem peynir, dışı panko kaplı wasabi, soya sosu, zencefil turşusu.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Süper Crancy Roll (8pcs)</h4><p>Yengeç, karides, krem, peynir, mayonez, wasabi, zencefil, turşusu, soya sosu ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Dynamit Roll (8pc)</h4><p>Avakado, salatalık, krem peynir, dışı susam üzerine kızarmış karides, dynamic sos, wasabi, zencefil turşusu, soya sos.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Land Special Roll</h4><p>Somon, ton balığı, levrek, ebi karides, salatalık, cheddar (4 pcs)</p></div></div>
+            </div>
+
+            <h3 class="category-title">Crunchy (Pişmiş) Roll</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div class="item-info"><h4>Vejeteryan Roll (8 pcs)</h4><p>Salatalık, domates, avakado, havuç, kuşkonmaz, dışı susam, wasabi zencefil turşusu, soya sos</p></div></div>
+                <div class="menu-item highlight"><div class="item-info"><h4>Populer Set 24 Parça+2 Cola Hediyeli</h4><p>California tempura roll (8 pcs), fried golden roll (8 pcs), philadelphia roll (8 pcs), zencefil turşusu, soya sosu, wasabi</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Tempura Levrek Roll (8pcs)</h4><p>Tempura Levrek, avakado, salatalık, krem peynir dışı çıtır panko</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Kani Tempura Roll (8pcs)</h4><p>Avakado, salatalık, krem peynir, içinde kızarmış yengeç, dışı çıtır panko, wasabi, soya sos, zencefil turşusu.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Ebi Maki Tempura (8pcs)</h4><p>Kızarmış karides, pirinç</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Ebi Tempura Roll</h4><p></p></div></div>
+            </div>
+
+            <h3 class="category-title">Ramen (Oishii)</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div class="item-info"><h4>Tavuklu Ramen</h4><p>Tavuk, mantar, pürmüzlenmiş yedikule, yeşil soğan, ajitama, kara lahana.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Dana Etli Ramen</h4><p>Dana eti, mantar, ajitama, pürmüzlenmiş yedikule, taze yeşil soğan, kara lahana.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Karidesli Ramen</h4><p>Karides, erişte, pürmüzlenmiş yedikule, ajitama, taze soğan, mantar, kara lahana</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Üç Lezzetli Ramen</h4><p>Tavuk, dana eti, karides, erişte, pürmüzlenmiş yedikule, ajitama, taze soğan, mantar kara lahana</p></div></div>
+            </div>
+
+            <h3 class="category-title">Noodle (Motto)</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div class="item-info"><h4>Singapur Noodle</h4><p>Dana eti, karides, tavuk, kapya biber, taze soğan, havuç, soya filizi dynamic sos ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Sebzeli Noodle</h4><p>Yeşil soğan, havuç, kapya biber, soya filizi, brokoli yanında dynamic sos ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Etli Noodle</h4><p>Dana eti, havuç, kapya biber, soya filizi, yeşil sosğan yanında dynamic sos ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Tavuklu Noodle</h4><p>Tavuk, yeşil soğan, havuç, kapya biber, soya filizi, dolma biber, çin eriştesi, lahana</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Karidesli Noodlle</h4><p>Karides, havuç, kapya biber, soya filizi, yeşil soğan yanında dynamic sos ile</p></div></div>
+            </div>
+
+            <h3 class="category-title">UDON'S (Umi)</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div class="item-info"><h4>Dana Etli Udon</h4><p>Dana eti, udon eriştesi, havuç, soya filizi, kapya biber, yeşil soğan, yanında dynamic sos</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Tavuklu Udon</h4><p>Tavuk, havuç, kapya biber, soya filizi, yeşil soğan yanında dynamic sos ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Sebzeli Udon</h4><p>Havuç, kapya biber, soya filizi, yeşil soğan yanında dynamic sos ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Üç Lezzetli Udon</h4><p>Tavuk, karides, dana eti, udon eriştesi, havuç, soya filizi, kapya biber, yeşil soğan, yanında dynamic sos</p></div></div>
+            </div>
+
+            <h3 class="category-title">JustChicken</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div class="item-info"><h4>Tatlı Ekşi Soslu Tavuk</h4><p>Dolmalık biber, kapya biber, ananas, taze soğan.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Teriyaki Soslu Tavuk</h4><p>Kapya biber, yeşil biber, kuru soğan, yeşil soğan, susam.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>General Tso</h4><p></p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Brokoli Tavuk</h4><p>Brokoli, havuç, tavuk.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Kung Pao Chicken</h4><p>Tavuk, kapya biber, yeşil biber, salata, havuç</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Mancuryan Usulü Tavuk</h4><p>Mantar, kabak, yeşil biber, kapya biber, soya filizi, fıstık hafif acılı</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Zencefil Soslu Çıtır Tavuk</h4><p>Havuç, taze zencefil, yeşil biber, kırmızı biber, sarımsak, taze soğan, soya sos ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Sarımsak Soslu Dana Eti</h4><p>Kırmızı biber, taze soğan, soya sos ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Karışık Sebzeli Dana Eti</h4><p>Dana eti, brokoli, dolmalık biber, havuç, kabak, beyaz lahana, mantar, soya filizi, kuru soğan, taze kırmızı biber, soya sos ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>İnce Kıyım Biberli Dana Eti</h4><p>İnce şeritler halinde kesilmiş dana eti, biber, havuç, yeşil soğan, soya sos ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Tatlı Ekşi Soslu Jumbo Karides</h4><p>Sweet and sour jumbo pram</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Land Special Acılı Tavuk</h4><p>Tavuk but, kurutulmuş kırmızı biber, sivri biber, siyah çin mantarı, kırmızı kapya biber, soya sos ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Yeşil Biberli Dana Eti</h4><p>Dana eti, dolmalık biber, havuç, sarımsak, zencefil. Soya sos ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Limon Soslu Çıtır Dana Eti</h4><p>Çıtır Dana eti, limon sosu</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Beyaz Mantarlı Dana Eti</h4><p>Beyaz mantar, dolmalık biber, kırmızı biber, yeşil soğan, soya sos ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Acı Soslu Karides (7 Adet)</h4><p>Kabak, mantar, sivri biber, fıstık, kırmızı biber, soya sos ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Karışık Sebzeli Karides (7 Adet)</h4><p>Lahana, kabak, kuru soğan, yeşil biber, brokoli, havuç, kırmızı biber, mantar, beybi mısır, soya sos ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Tatlı Ekşi Soslu Dana Eti</h4><p>Kuru soğan, yeşil biber, havuç, ananas</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Mantarlı Dana Eti</h4><p>Mantar, kuru soğan, kırmızı biber, havuç, yeşil soğan</p></div></div>
+            </div>
+
+            <h3 class="category-title">Bowl (The Hub)</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div class="item-info"><h4>Somon Poke Bowl</h4><p>Sushi pilavı, avokado, edamame taneleri, somon.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Tavuk Poke Bowl</h4><p>Sushi pilavı, avokado, edamame taneleri, tavuk.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Karides Bowl</h4><p></p></div></div>
+            </div>
+
+            <h3 class="category-title">Maki (Maquis)</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div class="item-info"><h4>Avokado Maki (8pcs)</h4><p>Avokado</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Tuna Maki (8pcs)</h4><p>Tuna, avakado.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Somon Maki (8pcs)</h4><p>Somon</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Kappa Maki (8 pcs)</h4><p>Cucumber</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Ebi Maki (8 Pcs)</h4><p></p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Yengeç Maki (2 pcs)</h4><p></p></div></div>
+            </div>
+
+            <h3 class="category-title">Gunkan (The Cargo)</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div class="item-info"><h4>Yengeç Gunkan [4pcs]</h4><p>Yengeç, dynamic sos vasabi, zencefil turşusu ve soya sosu ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Ton Balık Gunkan (4pcs)</h4><p>Ton balık, dynamic sos, wasabi, zencefil turşusu ve soya sosu ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Chedarlı Midye</h4><p>Midye üzerine eritilmiş chedar peyniri</p></div></div>
+            </div>
+
+            <h3 class="category-title">Nigiri (The Pillow)</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div class="item-info"><h4>Somon Nigiri (3pcs)</h4><p>Somon, wasabi, soya sosu, zencefil turşusu ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Ebi Nigiri (3 pcs)</h4><p>Karides, wasabi, soya sosu, zencefil turşusu ile</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Levrek Nigiri (3pcs)</h4><p>Levrek, wasabi, soya sosu, zencefil turşusu.</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Unagi Nigir (2 pcs)</h4><p></p></div></div>
+            </div>
+
+            <h3 class="category-title">Pilavlar (Pilafs)</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div class="item-info"><h4>Tavuklu Çin Pilavı</h4><p>Tavuk göğüs, bezelye, havuç, tane mısır, yumurta, yeşil soğan ve soya sos ile servis edilir</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Sebzeli Çin Pilavı</h4><p>Bezelye, havuç, tane mısır, yeşil soğan ve soya sos ile servis edilir</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Dana Etli Çin Pilavı</h4><p>Dana eti, bezelye, havuç, tane mısır, yumurta, yeşil soğan ve soya sos ile servis edilir</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Üç Lezzetli Çin Pilavı</h4><p>Karides, tavuk, dana eti, yumurta, bezelye, havuç, tane mısır, yeşil soğan ve soya sos ile servis edilir.</p></div></div>
+            </div>
+
+            <h3 class="category-title">Tatlılar (Sweets)</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div class="item-info"><h4>Kızarmış Ballı Ananas</h4><p></p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Ballı Kızarmış Muz</h4><p>3 pcs</p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Ballı Kızarmış Ceviz</h4><p></p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Kızarmış Dondurma</h4><p>1 adet</p></div></div>
+            </div>
+
+            <h3 class="category-title">Soslar (Sauces)</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div class="item-info"><h4>Soya Sosu</h4><p></p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Zencefil Turşusu</h4><p></p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Wasabi</h4><p></p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Teriyaki Sos</h4><p></p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Sweet Chili Sos</h4><p></p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Sriracha Sos</h4><p></p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Dinamic Sos</h4><p></p></div></div>
+                <div class="menu-item"><div class="item-info"><h4>Şans Kurabiyesi</h4><p></p></div></div>
             </div>
 
         </div>
     </section>
-
-    <footer>
-        <div class="container footer-content">
-            <div class="contact-info">
-                <h3>Sushiland İletişim</h3>
-                <p><i class="fas fa-map-marker-alt"></i> Bağlarbaşı, Nezaket Sokak No:1, Gaziosmanpaşa/İstanbul</p>
-                <p><i class="fab fa-whatsapp"></i> +90 541 879 29 25</p>
-            </div>
-            <div class="copyright">
-                <p>&copy; 2026 Sushiland. Tüm hakları saklıdır.</p>
-            </div>
-        </div>
-    </footer>
-
-</body>
-</html>
